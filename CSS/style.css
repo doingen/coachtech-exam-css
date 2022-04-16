@@ -1,0 +1,68 @@
+a {
+  text-decoration: none;
+}
+
+.header{
+  color: navy;
+  display: flex;
+}
+
+.header-left{
+  font-weight: bold;
+  padding: 20px;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.header-right{
+  font-weight: bold;
+  flex-direction: row;
+  display: inline-block;
+  margin: 0px 0px 0px auto;
+
+}
+.header-right ul {
+  display: flex;
+  list-style: none
+}
+
+.header-right li{
+  padding: 20px;
+}
+
+.main{
+  position: relative;
+  margin-top: 50px;
+}
+
+.bodyleft{
+  width: 70%;
+}
+
+.text{
+  position: relative;
+  height: 350px;
+}
+
+.bodyleft p {
+  position: absolute;
+  font-size: 70px;
+  bottom: 0;
+  margin: 0;
+}
+
+.navy{
+  background-color: navy;
+  height: 200px;
+}
+
+.bodyright {
+  position: absolute;
+  margin: 0 0 0 auto;
+  width: 50%;
+  height: 450px;
+  left: 50%;
+  top: 0;
+  background: url(../img/firstview.jpeg);
+  background-size: cover;
+}
